@@ -7,7 +7,7 @@ clc
 
 % Numerator
 num = [10];
-% Denominator
+% Denominator: get the coefficients by multiplying the factors s * (s+1) * (s+5)
 den = [1 6 5 0];
 
 % Transfer Function
