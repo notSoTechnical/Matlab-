@@ -25,3 +25,4 @@ subplot(3,1,3);
 plot(output_signal);
 title('Output from Convolution');
 suptitle('Convolution');
+csvwrite('_20hz_1hz.txt',signal_20hz_1hz);
