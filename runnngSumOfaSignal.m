@@ -1,3 +1,4 @@
+input_signal = load ('_20hz_1hz.txt');
 plot(input_signal);
 output_signal = cumsum(input_signal);
 subplot(2,1,1);
